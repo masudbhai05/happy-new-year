@@ -15,15 +15,14 @@
 
 .container {
     width: 1072px;
-    height: 723.3px;
     margin: 131px auto;
 }
 
 /* This is a header styles */
 header {
     width: 100%;
-    height: 800px;
-    background-image: url(/images/banner/banner3.png);
+    height: 809px;
+    background-image: url("/images/banner/banner3.png");
 }
 
 .header-container {
@@ -40,7 +39,7 @@ header {
 }
 
 .header-title {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 65px;
     margin-bottom: 24px;
 
@@ -57,7 +56,7 @@ header {
 .failures-container {
     display: flex;
     align-items: center;
-    gap: 87px;
+    justify-content: space-between;
 }
 
 .failures-image img {
@@ -92,7 +91,61 @@ header {
     margin-bottom: 8px;
 }
 
-.fa-check{
+.fa-check {
     padding-right: 5px;
     color: rgb(51, 251, 51);
+}
+
+
+/* This is a "My plan" section  styles*/
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-titles {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+
+}
+
+
+/* This is a call now styles */
+.call-now {
+    background-image: url("/images/gradient1.png"), url("/images/watch.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1080px;
+    height: 300px;
+    
+}
+.call-now-content{
+    padding: 72px;
+}
+
+.mindset-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #fff;
 }
