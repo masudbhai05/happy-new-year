@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 /* Common feature styles */
@@ -146,4 +147,62 @@ header {
     font-size: 40px;
     margin-bottom: 24px;
     color: #fff;
+}
+
+/* This is a footer section  */
+footer{
+    background-color: black;
+    width: 100%;
+    overflow-x: hidden;
+}
+.footer-caonatiner{
+    width: 1072px;
+    margin: 0 auto; 
+    padding: 130px 230px;
+}
+
+.footer-contact{
+    display: flex;
+    gap: 250px;
+}
+.future-title{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+margin-bottom: 16px;
+}
+
+.future p{
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+margin-bottom: 24px;
+}
+
+.icon{
+    padding-right: 17px;
+}
+
+.subscribe{
+    display: block;
+}
+.subscribe-title{
+    font-weight: 500;
+font-size: 25px;
+color: #FFFFFF;
+margin-bottom: 31px;
+}
+
+.form input{
+ padding: 14px 30px;
+ border:2px solid #FFFFFF;
+ border-radius: 5px;
+ background-color: #ffffff00;
+}
+
+.btn-subscribe{
+    background-color: #005FAC;
+    color: #FFFFFF;
+    margin-top: 16px;
+    
 }
