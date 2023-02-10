@@ -16,7 +16,7 @@
 
 .container {
     width: 1072px;
-    margin: 131px auto;
+    margin: 100px auto;
 }
 
 /* This is a header styles */
@@ -129,6 +129,49 @@ header {
 }
 
 
+/* This is a learning target section  */
+.learning-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.subject{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.leaning-subject{
+    padding: 20px 30px;
+}
+
+.leaning-subject{
+    box-shadow: 6px 5px 12px 0px #dededebf;
+}
+.subject-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.html-bg{
+    background-color: #d5e9fa;
+    border-bottom: 10px solid #38a4fc;
+    border-radius: 5px;
+}
+.css-bg{
+    background-color: #fceed9;
+    border-bottom: 10px solid #fcad3f;
+    border-radius: 5px;
+}
+.javascript-bg{
+    background-color: #ffd8dc;
+    border-bottom: 10px solid #ff4f61;
+    border-radius: 5px;
+}
+
+
 /* This is a call now styles */
 .call-now {
     background-image: url("/images/gradient1.png"), url("/images/watch.png");
@@ -198,6 +241,7 @@ margin-bottom: 31px;
  border:2px solid #FFFFFF;
  border-radius: 5px;
  background-color: #ffffff00;
+ color: #FFFFFF;
 }
 
 .btn-subscribe{
