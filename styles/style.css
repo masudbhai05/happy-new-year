@@ -23,7 +23,7 @@
 header {
     width: 100%;
     height: 809px;
-    background-image: url("/images/banner/banner2.png");
+    background-image: url("../images/banner/banner2.png");
 }
 
 .header-container {
@@ -174,7 +174,7 @@ header {
 
 /* This is a call now styles */
 .call-now {
-    background-image: url("/images/gradient1.png"), url("/images/watch.png");
+    background-image: url("../images/gradient1.png"), url("../images/watch.png");
     background-repeat: no-repeat;
     background-size: contain;
     width: 1080px;
